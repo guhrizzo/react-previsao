@@ -1,0 +1,38 @@
+.weather5day-container {
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 10px;
+  padding: 20px;
+  width: 60vw;
+}
+
+.weather5day-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.weather-list {
+  display: flex;
+  flex-direction: row;   
+  flex-wrap: wrap;      
+  justify-content: center;            
+}
+
+.weather-item {
+  background: rgba(255, 255, 255, .8);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.weather-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.weather-item p {
+  margin: 5px 0;
+  text-transform: capitalize;
+}
